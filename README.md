@@ -10,13 +10,17 @@ According to Wikipedia 'The Iris flower data set or Fisher's Iris data set is a 
 This doesn't help me much to be honest.  Lets try and find out more about the Iris Data Set in layman's terms:
 The data set contains 150 records of three different types (classes) of iris flowers with numeric values for petal length and width and sepal length and width.  This data set is traditionally used for classification and prediction – to see which features of an iris can identify the flower as a certain type of iris. The values for length and width can be used to classify an iris into one of three iris types: Iris setosa, Iris versicolor, or Iris virginica. Visually exploring this data also lets you see the grouping (clustering) of the records into these three different types of irises (ref: https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/).
 
-So it appears that the reason the Iris Data Set is used so much in Data Analytics is because the data set is a classic, well-known data set example for data mining and data exploration.  
+So it appears that the reason the Iris Data Set is used so much in Data Analytics is because the data set is a classic, well-known data set example for data mining and data exploration. 
+
+#Machine Learning
+After a few hours of research, scroling through websites and watching YouTube videos, it is apparent that Data Scientists love Python and most scientists in the industry use a combination of numpy + pandas + sklearn as their data science stack.  Having a brief look of what sklearn can do, I have created a file Machine.py to import sklearn and try out some code.
 
 # Summary of Files
 Data/Iris.csv: Iris Data Set File imported as CSV file
 Format.py: Python Code that formats the Iris Data Set
-
+Machine.py: Import sklearn and try some code
 
 # References Used
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/
+http://www.scipy-lectures.org/packages/scikit-learn/

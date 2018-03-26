@@ -1,4 +1,4 @@
-# Project2018-IrisDataSet
+## Project2018-IrisDataSet
 Programming and Scripting Data Analytics Project 2018
 
 # Introduction
@@ -12,9 +12,11 @@ The data set contains 150 records of three different types (classes) of iris flo
 
 So it appears that the reason the Iris Data Set is used so much in Data Analytics is because the data set is a classic, well-known data set example for data mining and data exploration.  
 
+# Summary of Files
+Data/Iris.csv: Iris Data Set File imported as CSV file
+Format.py: Python Code that formats the Iris Data Set
 
 
-
-
+# References Used
 https://en.wikipedia.org/wiki/Iris_flower_data_set
 https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/

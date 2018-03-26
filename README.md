@@ -1,4 +1,4 @@
-## Project2018-IrisDataSet
+ ## Project2018-IrisDataSet
 Programming and Scripting Data Analytics Project 2018
 
 # Introduction
@@ -12,7 +12,7 @@ The data set contains 150 records of three different types (classes) of iris flo
 
 So it appears that the reason the Iris Data Set is used so much in Data Analytics is because the data set is a classic, well-known data set example for data mining and data exploration. 
 
-#Machine Learning
+# Machine Learning
 After a few hours of research, scroling through websites and watching YouTube videos, it is apparent that Data Scientists love Python and most scientists in the industry use a combination of numpy + pandas + sklearn as their data science stack.  Having a brief look of what sklearn can do, I have created a file Machine.py to import sklearn and try out some code.
 
 # Summary of Files

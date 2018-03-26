@@ -10,3 +10,5 @@ with open("data/iris.csv") as f: #importing of the Iris Data Set
         print('{0[0]:12} {0[1]:12} {0[2]:12} {0[3]:12} {0[4]:12}'.format(data))
 
  # the formatting of the data
+
+f.head() #to check the first 10 rows of the data set

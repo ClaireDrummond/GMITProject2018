@@ -11,4 +11,3 @@ with open("data/iris.csv") as f: #importing of the Iris Data Set
 
  # the formatting of the data
 
-f.head() #to check the first 10 rows of the data set

@@ -15,6 +15,9 @@ So it appears that the reason the Iris Data Set is used so much in Data Analytic
 # Back to Basic with the Python Tutorial
 Before I jump on in to Machine Learning and importing libraries to Python to help me manipulate the data, I think it is best to explore the basics of reading files in Python
 
+# CSV Module
+Here I am importing the CSV module to manipulate the Iris Data File. To pull information from CSV files you use loop and split methods to get the data from individual columns.The CSV module explicitly exists to handle this task, making it much easier to deal with CSV formatted files. This becomes especially important when you are working with data that’s been exported from actual spreadsheets and databases to text files
+
 # Machine Learning
 After a few hours of research, scroling through websites and watching YouTube videos, it is apparent that Data Scientists love Python and most scientists in the industry use a combination of numpy + pandas + sklearn as their data science stack.  Having a brief look of what sklearn can do, I have created a file Machine.py to import sklearn and try out some code.
 
@@ -22,6 +25,7 @@ After a few hours of research, scroling through websites and watching YouTube vi
 Data/Iris.csv: Iris Data Set File imported as CSV file
 Format.py: Python Code that formats the Iris Data Set
 Tutorial.py: Applying the learnings in https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files and using them on the Iris Data Set
+Csvmodule.py: importing CSV and manipulating data
 Machine.py: Import sklearn and try some code
 
 # References Used
@@ -29,3 +33,4 @@ https://en.wikipedia.org/wiki/Iris_flower_data_set
 https://www.ibm.com/communities/analytics/watson-analytics-blog/watson-analytics-use-case-the-iris-data-set/
 http://www.scipy-lectures.org/packages/scikit-learn/
 https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
+http://www.pythonforbeginners.com/systems-programming/using-the-csv-module-in-python/

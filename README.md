@@ -21,12 +21,16 @@ Here I am importing the CSV module to manipulate the Iris Data File. To pull inf
 # Machine Learning
 After a few hours of research, scroling through websites and watching YouTube videos, it is apparent that Data Scientists love Python and most scientists in the industry use a combination of numpy + pandas + sklearn as their data science stack.  Having a brief look of what sklearn can do, I have created a file Machine.py to import sklearn and try out some code.
 
+# Mean.py
+In week 10, of Programming and Scripting Module, I was introduced to Numpy which is ideal for data anaylsis.  Here I have created code to establish the mean of each column.  To understand each column in more detail, I have created histgrams to understand ecah column in more detail
+
 # Summary of Files
 Data/Iris.csv: Iris Data Set File imported as CSV file
 Format.py: Python Code that formats the Iris Data Set
 Tutorial.py: Applying the learnings in https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files and using them on the Iris Data Set
 Csvmodule.py: importing CSV and manipulating data
 Machine.py: Import sklearn and try some code
+Mean.py
 
 # References Used
 https://en.wikipedia.org/wiki/Iris_flower_data_set

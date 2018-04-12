@@ -23,3 +23,5 @@ pl.title('Iris dataset with 3 clusters and known outcomes')
 pl.show() 
 
 #This is a plot representing how the known outcomes of the Iris dataset should look like. It is what you would like the K-means clustering to achieve.
+
+

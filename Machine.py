@@ -17,7 +17,7 @@ print(n_features)
 print(iris.target_names) #The names of the classes are stored in the last attribute, namely target_names
 
 # The information about the class of each sample is stored in the target attribute of the dataset
-print(iris.target.shape)
+print(iris.target.shape) # the numbers of rows in the data file
 
-print(iris.target)
+print(iris.target) # there are 3 types of species, these are represented by 0,1,2
 

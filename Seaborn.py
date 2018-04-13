@@ -12,3 +12,5 @@ sns.lmplot(x="ID", y="ratio", data=iris, hue="species", fit_reg=False, legend=Fa
 
 plt.legend()
 plt.show()
+
+# issued with sync it github

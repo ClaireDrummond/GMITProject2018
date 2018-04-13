@@ -28,6 +28,10 @@ In week 10, of Programming and Scripting Module, I was introduced to Numpy which
 # Scatterplot.py
 This file contains code that visualises the data: one showing Petal Values, the other Sepal Values.
 
+# Seaborn.py
+Using Seaborn I have created a scatterplot that shows the ratio between the width & length of the Sepal leaf and the Petal Leaf
+https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
+
 # Summary of Files
 Data/Iris.csv: Iris Data Set File imported as CSV file
 Format.py: Python Code that formats the Iris Data Set
@@ -46,3 +50,4 @@ https://docs.python.org/3/tutorial/inputoutput.html#reading-and-writing-files
 http://www.pythonforbeginners.com/systems-programming/using-the-csv-module-in-python/
 http://www.dummies.com/programming/big-data/data-science/how-to-visualize-the-clusters-in-a-k-means-unsupervised-learning-model/
 http://stamfordresearch.com/k-means-clustering-in-python/
+https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset

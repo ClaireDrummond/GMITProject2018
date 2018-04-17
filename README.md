@@ -23,6 +23,9 @@ Here I am importing the CSV module to manipulate the Iris Data File. To pull inf
 After a few hours of research, scroling through websites and watching YouTube videos, it is apparent that Data Scientists love Python and most scientists in the industry use a combination of numpy + pandas + sklearn as their data science stack.  Having a brief look of what sklearn can do, I have created a file Machine.py to import sklearn and try out some code. 
 Delving deeper into SK Learn, I have discovered K-means clustering analysis which I think is very useful for the Iris Data Set. http://www.dummies.com/programming/big-data/data-science/how-to-visualize-the-clusters-in-a-k-means-unsupervised-learning-model/ has interesting code in it to help explain this.  My file Kmeans.py samples this code.
 
+# Stats.py
+During my research I have learned that importing the Pandas Library is ideal for statisitcal analyis in datasets. 
+
 # Mean.py
 In week 10, of Programming and Scripting Module, I was introduced to Numpy which is ideal for data anaylsis.  Here I have created code to establish the mean of each column.  To understand each column in more detail, I have created histograms to understand each column in more detail
 
@@ -42,6 +45,7 @@ Machine.py: Import sklearn and try some code
 Mean.py
 Kmeans.py
 Scatterplot.py
+Stats.py
 
 # References Used
 https://en.wikipedia.org/wiki/Iris_flower_data_set
@@ -52,3 +56,4 @@ http://www.pythonforbeginners.com/systems-programming/using-the-csv-module-in-py
 http://www.dummies.com/programming/big-data/data-science/how-to-visualize-the-clusters-in-a-k-means-unsupervised-learning-model/
 http://stamfordresearch.com/k-means-clustering-in-python/
 https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
+https://pandas.pydata.org/

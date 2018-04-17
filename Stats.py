@@ -1,13 +1,36 @@
-import csv
+import pandas 
 
-with open("data/iris.csv", 'rb') as f:
-    reader = csv.reader(f)
-    header = next(reader)
-    data_list = list(reader)
-    rows = [''] + ['{:.1f}'.format(sum(float(x) for x in y) / len(data_list)) for y in zip(*data_list)[1:]]
-    average_data_list = [header] + [rows]
 
-    print (average_data_list)
+
+# Load dataset from UCI Machine Learning repository
+
+iris_url = "https://archive.ics.uci.edu/ml/machine-learning-databases/iris/iris.data"
+
+names = ['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'class']
+
+dataset = pandas.read_csv(iris_url, names=names)
+
+
+
+# shape
+
+print(dataset.shape)
+
+
+
+# head
+
+print(dataset.head(10))
+
+
+
+# descriptions
+
+print(dataset.describe())
+
+
+
+
 
 
     

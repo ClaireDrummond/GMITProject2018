@@ -1,4 +1,4 @@
-
+# Claire Drummond April-19-2018
 # Ref: http://stamfordresearch.com/k-means-clustering-in-python/
 
 #Setting up the Environment
@@ -8,7 +8,7 @@ from sklearn.cluster import KMeans
 import sklearn.metrics as sm
  
 import pandas as pd
-import numpy as np
+import numpy as np # used to create the colour coding
 
 # import the Iris Data Set from Sklearn
 iris = datasets.load_iris()

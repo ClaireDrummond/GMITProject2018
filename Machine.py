@@ -2,7 +2,7 @@
 # ref: http://www.scipy-lectures.org/packages/scikit-learn/
 
 # scikit-learn embeds a copy of the iris CSV file along with a function to load it into numpy arrays 
-from sklearn.datasets import load_iris
+from sklearn.datasets import load_iris # Alternative way of importing Iris data set
 iris = load_iris()
 
 #The features of each sample flower are stored in the data attribute of the dataset

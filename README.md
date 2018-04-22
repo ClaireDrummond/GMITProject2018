@@ -32,6 +32,10 @@ Using Seaborn I have created a scatterplot that shows the ratio between the widt
 https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
 All graphs are uploaded to the repository.
 
+#Key Findings
+Currently working on word doc to upload to git hub
+
+
 # Summary of Files
 Data/Iris.csv
 Tutorial.py
@@ -54,3 +58,4 @@ http://stamfordresearch.com/k-means-clustering-in-python/
 https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
 https://pandas.pydata.org/
 https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
+http://seaborn.pydata.org/tutorial/distributions.html

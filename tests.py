@@ -1,24 +1,17 @@
 
+# Calculate the mean of each Column
+import numpy
 
-import seaborn as sns
-df = sns.load_dataset('iris')
+# Read data file into array
+data = numpy.genfromtxt('data/iris.csv', delimiter=',')
+# picking the first column of data
+firstcol = data[:,0]
+secondcol = data[:,1]
+thirdcol = data[:,2]
+forthcol = data[:,3]
 
-df.groupby('species').mean()
-print (df.groupby('species').mean())
-
-
-
-import pandas as pd
-df = pd.read_csv( 'data/iris.csv', header=None, names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'] )
-df.groupby('species').mean()
-print (df.groupby('species').mean())
-
-import pandas as pd
-df = pd.read_csv( 'data/iris.csv', header=None, names=['sepal_length', 'sepal_width', 'petal_length', 'petal_width', 'species'] )
-df.groupby('species').median()
-print (df.groupby('species').median())
-
-
+meanfirstcol = numpy.mean(data[:,0] [:,1] [:,2] [:,3]) #defining meanfirstcol
+print("Mean of First Column is:", meanfirstcol)
 
 
 

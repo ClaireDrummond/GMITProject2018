@@ -59,3 +59,4 @@ https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot
 https://pandas.pydata.org/
 https://rajritvikblog.wordpress.com/2017/06/29/iris-dataset-analysis-python/
 http://seaborn.pydata.org/tutorial/distributions.html
+https://stackoverflow.com/questions/49970309/how-do-i-calculate-the-mean-of-each-species-of-the-iris-data-set-in-python

@@ -41,4 +41,6 @@ print (df.groupby('species').max())
 df.groupby('species').min() # Separates the data into the 3 different species, then calculates the minimum value
 print (df.groupby('species').min())
 
-    
+# Using the above code, adjusted to get Variance of each Species
+df.groupby('species').var() # Separates the data into the 3 different species, then calculates the variance of each
+print (df.groupby('species').var())   

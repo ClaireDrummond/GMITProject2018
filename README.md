@@ -1,4 +1,4 @@
-
+ 
 # Project2018-IrisDataSet
 Programming and Scripting Data Analytics Project 2018
 
@@ -31,7 +31,7 @@ Using Seaborn I have created a scatterplot that shows the ratio between the widt
 https://stackoverflow.com/questions/45862223/use-different-colors-in-scatterplot-for-iris-dataset
 All graphs are uploaded to the repository.
 
-#Key Findings
+# Key Findings
 ## Iris Data Set key Findings.doc
 A summary of observations from the analysis.
 
